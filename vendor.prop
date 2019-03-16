@@ -135,6 +135,7 @@ persist.vendor.s5k3l8_ofilm.light.lux=367
 persist.vendor.s5k3l8_ofilm.low.lux=379
 
 # Display
+debug.cpurend.vsync=false
 debug.sf.enable_adpf_cpu_hint=true
 debug.hwui.use_hint_manager=true
 debug.sf.use_phase_offsets_as_durations=1
