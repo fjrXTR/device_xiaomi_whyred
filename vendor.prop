@@ -135,10 +135,21 @@ persist.vendor.s5k3l8_ofilm.light.lux=367
 persist.vendor.s5k3l8_ofilm.low.lux=379
 
 # Display
-debug.sf.early_app_phase_offset_ns=1500000
-debug.sf.early_gl_app_phase_offset_ns=15000000
-debug.sf.early_gl_phase_offset_ns=3000000
-debug.sf.early_phase_offset_ns=1500000
+debug.sf.enable_adpf_cpu_hint=true
+debug.hwui.use_hint_manager=true
+debug.sf.use_phase_offsets_as_durations=1
+debug.sf.late.sf.duration=10500000
+debug.sf.late.app.duration=16600000
+debug.sf.early.sf.duration=16600000
+debug.sf.early.app.duration=16600000
+debug.sf.earlyGl.sf.duration=16600000
+debug.sf.earlyGl.app.duration=16600000
+debug.sf.layer_caching_active_layer_timeout_ms=1000
+debug.sf.treat_170m_as_sRGB=1
+ro.surface_flinger.use_color_management=1
+ro.surface_flinger.set_idle_timer_ms=80
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.set_display_power_timer_ms=1000
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=1
