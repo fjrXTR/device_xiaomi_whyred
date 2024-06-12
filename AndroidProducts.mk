@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_whyred.mk
+    $(LOCAL_DIR)/whyred_whyred.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_whyred-user \
-    superior_whyred-userdebug \
-    superior_whyred-eng
+    bliss_whyred-user \
+    bliss_whyred-userdebug \
+    bliss_whyred-eng
